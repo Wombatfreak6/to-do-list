@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,74 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="image">
+        <img src="" alt="">
+    </div>
+    <div id="todo">
+        <img src="" alt="">
+    </div>
+    <h1>TO-DO-LIST</h1>
+    <div class="monthly-calender">
+        <img src="" alt="">
     
+    </div>
+    <div class="todolist">
+        <img src="" alt="">
+    </div>
+
+    
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="top-header">
+        <h1>To-Do List</h1>
+    </header>
+
+    <main class="container">
+        
+        <!-- MONTHLY CHECK-IN -->
+        <aside class="sidebar">
+            <div class="calendar-box">📅</div>
+            <h3>Monthly Check-in</h3>
+            
+            <ul id="monthlyList" class="sidebar-list"></ul>
+
+            <div class="add-item">
+                <input type="text" id="monthlyInput" placeholder="New monthly task">
+                <button onclick="addMonthly()">Add</button>
+            </div>
+        </aside>
+
+        <!-- DAILY TO DO SECTION -->
+        <section class="todo-section">
+            <h2>Daily To-Do List</h2>
+
+            <ul id="dailyList" class="todo-items"></ul>
+
+            <div class="add-item">
+                <input type="text" id="dailyInput" placeholder="New daily task">
+                <button onclick="addDaily()">Add</button>
+            </div>
+        </section>
+
+        <!-- NOTES -->
+        <aside class="notes">
+            <h3>Notes</h3>
+            <textarea placeholder="Write notes here..."></textarea>
+        </aside>
+
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
