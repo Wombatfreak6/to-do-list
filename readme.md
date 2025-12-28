@@ -34,3 +34,30 @@ This project is built using **HTML, CSS, and JavaScript** — no frameworks requ
 ---
 
 ## 📁 Project Structure
+📦 to-do-list
+┣ 📜 index.html
+┣ 🎨 style.css
+┣ ✨ script.js
+┗ 📄 README.md
+
+
+---
+
+## ⚙️ How to Use
+
+1. **Clone or Download** this project
+2. Open the project folder
+3. Run by double-clicking `index.html` to open in your browser
+
+---
+
+## 💾 LocalStorage
+
+This app uses browser storage to save:
+- Daily tasks
+- Monthly tasks
+
+You can close the browser or refresh — your data stays!
+
+## 📄 License
+This project is open for personal use, modification, and learning purposes.
